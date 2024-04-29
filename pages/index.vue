@@ -75,7 +75,7 @@ span button{
   color:white;
   text-decoration: none;
   width:30vh;
-  height: 6vh;
+  height: auto;
   text-align: center;
   margin: auto;
   padding: auto;
@@ -86,5 +86,15 @@ span button{
   margin: auto;
   padding: auto;
   text-align: center;
+}
+.search{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+.search input{
+  display: flex;
+  background-color: #333;
+  margin: 2vh;
 }
 </style>
